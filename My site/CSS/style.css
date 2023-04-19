@@ -1,0 +1,99 @@
+/* Home */
+.navbar{
+  display: flex;
+  background-color: pink;
+}
+li {
+  display: inline;
+  text-align: center;
+  color: white;
+  margin-left: 15px;
+}
+.banner {
+max-width: 100%;
+
+}
+button {
+  width: 100px;
+  background-color: white;
+  color: pink;
+  padding: 20px;
+  border-radius: 15px;
+  border-width: 0;
+}
+button:hover {
+color: #FFABAB;
+}
+
+.recipeBtn {
+  background-color: pink;
+  color: white;
+}
+.recipeBtn:hover {
+  color: grey;
+}
+
+body {
+  background-color: pink;
+}
+.split{
+display: flex;
+
+}
+
+.info {
+  margin: 100px;
+  text-align: center;
+  color: white;
+}
+.infoImg {
+width: 400px;
+transform: rotate(90deg);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Home - recipe shortcut */
+.recipeShortcut {
+  background-color: white;
+  display: flex;
+  color: #FFABAB;
+
+}
+.smoothieImg1 {
+  width: 400px;
+  margin: 50px;
+}
+.recipeInfo {
+  text-align: center;
+  margin: auto;
+font-size: 25px;
+}
+.homeLink {
+  color: #FFABAB;
+  font-weight: bold;
+  font-style: italic;
+}
+/* Footer */
+.footer {
+  text-align: center;
+ color: white;
+}
+
+/* Recipes page */
+
+.smoothieRecipeLink {
+  background-color: pink;
+  color: white;
+  font-size: 20px;
+  padding-top: 15px;
+  display: flex;
+}
+.smoothieImg {
+  width: 50%;
+}
+.smoothieRecipeInfo {
+  margin: 25px;
+}
